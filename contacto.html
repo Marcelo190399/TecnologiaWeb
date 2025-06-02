@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+         <h1>Formulario</h1>
+         <p>Escribe tus sugerencias de películas, videojuegos o libros que quieres que haga una reseña</p>
+        <nav>
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="libros.html">Libros</a></li>
+                <li><a href="peliculas.html">Películas</a></li>
+                <li><a href="videojuegos.html">Video Juegos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ol>
+        </nav>
+    </header>
+    <form action="..." method="post">
+        <label for="correo">email:</label>
+        <input type="email" name="correo electronico" id="correo"><br>
+        Elige un campo:<select name="categoria">
+            <option value="">elige</option>
+            <option value="libros">libro</option>
+            <option value="videojuegos">videojuego</option>
+            <option value="películas">película</option>
+        </select><br>
+        <label for="sugerencia">Escribe tu sugerencia</label>
+        <input type="text" name="escribe tu sugerencia" id="sugerencia"><br>
+        <input type="submit" name="Enviar" value="Enviar datos">
+        <input type="reset" name="Limpiar" value="Borrar los datos introducidos">
+    </form>
+</body>
+</html>
