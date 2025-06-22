@@ -10,20 +10,20 @@ body {
 }
 
 article {
-  background-color: #2E2E2E;
-  color: #e6e6e6;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: justify;
+    background-color: #2E2E2E;
+    color: #F5E1C4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
 }
 
 article a {
-  color: #00ADB5;
-  text-decoration: none;
+    color: #00ADB5;
+    text-decoration: none;
 }
 
 article a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 article p {
@@ -95,10 +95,10 @@ section {
 }
 
 section h2 {
-  color: #00ADB5;
-  font-size: 24px;
-  flex: 1 1 100%;
-  margin: 0 0 10px 0;
+    color: #00ADB5;
+    font-size: 24px;
+    flex: 1 1 100%;
+    margin: 0 0 10px 0;
 }
 
 section img {
@@ -120,6 +120,30 @@ section img {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cuerpo{
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    background-color: #e6e6e6;
+    padding: 5px;
+}
+
+.resenas {
+    flex: 1 1 auto;
+    background-color: #e6e6e6;
+    margin-bottom: 5px; 
+    padding: 10px;
+}
+
+.barra {
+    background-color: #4c4b4b;
+    flex: 0 0 20%;
+    max-width: 20%;
+    order: 2;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .contenedor {
@@ -225,16 +249,16 @@ a img:hover {
 /* Responsive para móviles */
 @media (max-width: 768px) {
   section {
-    flex-direction: column;
-    text-align: center;
+      flex-direction: column;
+      text-align: center;
   }
 
   section img {
-    width: 80%;
+      width: 80%;
   }
 
   section h2 {
-    text-align: center;
+      text-align: center;
   }
 
   form {
